@@ -18,7 +18,6 @@
   <body>
     <!-- navbar -->
 
-    
     <header>
       <!--
       <nav class="navbar navbar-light bg-light">
@@ -39,11 +38,18 @@
       </nav>
     -->
 
-      
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Travel Agency</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -58,7 +64,7 @@
                 <a class="nav-link" href="#">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                <a class="nav-link">Contact</a>
               </li>
             </ul>
           </div>
@@ -154,6 +160,27 @@
       </div>
       <!-- fine container -->
     </main>
+    <!-- label -->
+    <section id="contact" class="my-5">
+      <div class="container">
+        <h2>Contact us</h2>
+        <form action="#">
+          <div class="row">
+            <div class="col">
+              <label class="form-lable" for="email-address">Your email</label>
+              <input
+                class="form-control"
+                type="email"
+                id="email-address"
+                name="email"
+                placeholder="Insert your email address"
+              />
+            </div>
+            <div class="col"></div>
+          </div>
+        </form>
+      </div>
+    </section>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
